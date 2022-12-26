@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    box-sizing: border-box;
+}
+body {
+    background: #1e90ff;
+    height: 100vh;
+}
+.game-navebar {
+    background: #000080;
+}
+.logo {
+    font-size: 26px;
+    font-weight: 400;
+    color: #1e90ff;
+    transition: all 0.3s;
+}
+.logo:hover {
+    color: #fff;
+}
+.nav-links ul li a {
+    font-size: 24px;
+    font-weight: 300;
+    margin-right: 5px;
+    color: #1e90ff;
+    transition: all 0.3s;
+}
+.nav-links ul li a:hover {
+    color: #fff;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    padding: 30px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    letter-spacing: 3px;
+    color: #fff;
+    border-radius: 10px;
+}
+.user,
+.result,
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice h2 {
+    color: #fff;
+    font-size: 50px;
+}
+.user div {
+    margin-left: 10px;
+}
+.user h2,
+.result h2 {
+    color: #fff;
+    font-size: 50px;
+}
